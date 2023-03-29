@@ -5,21 +5,10 @@ set background=dark
 set spell
 set number
 set clipboard=unnamedplus
-set noexpandtab
+set expandtab
 set tabstop=4
 set autoindent
-
-
-
-
-
-
-
-
-
-
-
-
+set expandtab
 
 
 
