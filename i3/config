@@ -144,9 +144,9 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
-#bindsym $mod+l exec "i3lock -i /home/andrew/pictures/1638090.png -u"
+#bindsym $mod+l exec "i3lock -i ~/pictures/1638090.png -u"
 
-bindsym $mod+l exec "python3 /home/andrew/github/python-scripts/python-linux/linux-functions/lock-screen.py"
+bindsym $mod+l exec "python3 ~/.config/scripts/lock-screen.py"
 
 
 # resize window (you can also use the mouse for that)
@@ -256,5 +256,5 @@ exec --no-startup-id picom --experimental-backends
 
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec i3-msg exit
-bindsym $mod+Shift+s exec python3 /home/andrew/github/python-scripts/python-linux/linux-functions/screenshot.py
+bindsym $mod+Shift+s exec python3 ~/.config/scripts/screenshot.py
 
