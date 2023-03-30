@@ -23,13 +23,13 @@ set smartindent
 
 "Install required plugin for theme
 call plug#begin()
-Plug 'AndrewLockVI/DarkVim.vim'
+Plug 'AndrewLockVI/dark_ocean.vim'
 call plug#end()
 
 set termguicolors
 
 
-colorscheme DarkVim 
+colorscheme dark_ocean
 
 
 
