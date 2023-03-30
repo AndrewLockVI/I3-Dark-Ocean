@@ -21,13 +21,15 @@ set autoindent
 "This adds an extra tab when using if statements and stuff like that
 set smartindent
 
+"Install required plugin for theme
+call plug#begin()
+Plug 'AndrewLockVI/DarkVim.vim'
+call plug#end()
+
+set termguicolors
 
 
-
-
-
-
-
+colorscheme DarkVim 
 
 
 
