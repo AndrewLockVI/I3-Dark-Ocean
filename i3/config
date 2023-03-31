@@ -267,6 +267,10 @@ exec_always --no-startup-id picom
 
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec i3-msg exit
-bindsym $mod+Shift+s exec python3 ~/.config/scripts/screenshot.py
+#This is a custom screenshot script on my github https://github.com/AndrewLockVI/I3-Dark-Ocean that takes screenshot saves it to file and clipboard.
+#This is different than scrot because it takes entire screen image. Sometimes I have issues with scrot when I have many windows opened and it does
+#a weird line glitching thing.
+#bindsym $mod+Shift+s exec python3 ~/.config/scripts/screenshot.py
+bindsym $mod+Shift+s --release exec scrot -s -o ~/Downloads/screenshot.png -e 'xclip -selection clipboard -t image/png -i ~/Downloads/screenshot.png'
 
 
