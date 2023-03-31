@@ -22,7 +22,7 @@ I use colemak so my configuration may be a little bit weird for I3, but my vim k
 
 Install for Alacritty:
 
-1. Install alacritty from your pacakage manager
+1. Install alacritty from your package manager
 2. Download my alacritty config folder and place it in your ~/.config folder
 
 ## Install Process For Vim Config (Linux):
