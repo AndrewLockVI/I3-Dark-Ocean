@@ -260,7 +260,7 @@ bindsym $mod+Shift+f "exec firefox"
 
 exec_always --no-startup-id nitrogen --restore &
 
-exec --no-startup-id picom --experimental-backends
+exec_always --no-startup-id picom --experimental-backends
 
 
 
