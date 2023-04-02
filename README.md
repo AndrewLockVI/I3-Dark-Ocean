@@ -11,8 +11,8 @@ These are my config files to get i3 WM feeling nice and comfy!
 3. Install picom from package manager (Compositor to make windows semi-transparent)
 4. Install nitrogen from package manager and run it setting your preferred background image
 5. Download my picom.conf file and place it in your ~/.config folder
-6. Download my i3 config folder and place it in your ~/.config folder
-7. Download my i3-status folder and place it in your ~/.config folder
+6. Download my i3 config folder and place the contained files in your ~/.config folder
+7. Download my i3-status folder and place the contained file in your i3config folder in your ~/.config directory.
 8. Download my scripts folder and place it in your ~/.config folder
 9. Ensure you have installed the Scrot package for screenshots (Mod + Shift + S is bound to a screenshot script with that dependency)
 10. Reload I3-WM and you should be good to go!
