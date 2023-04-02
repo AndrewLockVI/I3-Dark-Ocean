@@ -14,8 +14,8 @@ These are my config files to get i3 WM feeling nice and comfy!
 6. Download my i3 config folder and place it in your ~/.config folder
 7. Download my i3-status folder and place it in your ~/.config folder
 8. Download my scripts folder and place it in your ~/.config folder
-9.Ensure you have installed the Scrot package for screenshots (Mod + Shift + S is bound to a screenshot script with that dependency)
-10.Reload I3-WM and you should be good to go!
+9. Ensure you have installed the Scrot package for screenshots (Mod + Shift + S is bound to a screenshot script with that dependency)
+10. Reload I3-WM and you should be good to go!
 
 NOTE:
 I use colemak so my configuration may be a little bit weird for I3, but my vim keybinds are stock with slight usability tweaks. I use my vim config daily for python programming.
